@@ -59,7 +59,7 @@ public class ControlPanel extends JPanel {
 		add(Box.createRigidArea(new Dimension(30, 0)));
 		add(DoneButton.getInstance());
 		add(Box.createRigidArea(new Dimension(30, 0)));
-		add(Box.createHorizontalGlue());
+		add(Box.createHorizontalGlue());	
 		
 		//since ControlPanel is a clickable area, we must write focus handling code for the event it is clicked on
 		//passes focus to frame	

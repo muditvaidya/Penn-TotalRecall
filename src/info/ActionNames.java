@@ -29,6 +29,7 @@ import behaviors.singleact.ContinueAnnotatingAction;
 import behaviors.singleact.DeleteAnnotationAction;
 import behaviors.singleact.DoneAction;
 import behaviors.singleact.ExitAction;
+import behaviors.singleact.KeyBinderAction;
 import behaviors.singleact.KeyBindingsMessageAction;
 import behaviors.singleact.OpenAudioLocationAction;
 import behaviors.singleact.OpenWordpoolAction;
@@ -146,6 +147,10 @@ public class ActionNames {
 			generalMap.put(
 					StopAction.class, 
 					new ActionIdentification("Go to Start", null));
+			
+			generalMap.put(KeyBinderAction.class, 
+					new ActionIdentification("Key Preferences",null));
+		
 			generalMap.put(
 					ReplayLast200MillisAction.class, 
 					new ActionIdentification("Replay Last 200 ms", null));

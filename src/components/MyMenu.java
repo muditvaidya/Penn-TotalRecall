@@ -158,7 +158,8 @@ public class MyMenu extends JMenuBar {
 				new ReturnToLastPositionAction());
 		JMenuItem jmiReplayLast = new JMenuItem(
 				new ReplayLastPositionAction());
-
+		JMenuItem jmiKeyPreferences = new JMenuItem(
+				new KeyBinderAction());
 		
 		JMenu jmSeek = new JMenu("Seek");
 		SeekAction seekSmallForward = new SeekAction(SeekAction.SeekAmount.FORWARD_SMALL);
